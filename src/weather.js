@@ -5,7 +5,7 @@ export const weather = async (location) => {
     localStorage.removeItem("User_Location");
   }
 
-  const api_url = `http://api.weatherapi.com/v1/current.json?key=${apikey}&q=${location}`;
+  const api_url = `https://api.weatherapi.com/v1/current.json?key=${apikey}&q=${location}`;
   const response = await fetch(api_url);
 
   if (response.status !== 200) {
