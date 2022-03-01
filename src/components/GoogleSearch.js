@@ -10,7 +10,7 @@ export default () => {
           alt="Google Search"
         />
         <form action="https://google.com/search">
-          <input autoFocus type="text" name="q" placeholder="Google Search" />
+          <input autofocus type="text" name="q" placeholder="Google Search" />
           <input type="submit" value="Google Search" />
         </form>
       </div>
